@@ -1,0 +1,17 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Ejecutar",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts && node index.js",
+    "start:types": "tsc basics/types --outdir dist/ && node dist/types.js",
+    "start:enums": "tsc basics/enums --outdir dist/ && node dist/enums.js",
+    "start:interfaces": "tsc basics/interfaces --outdir dist/ && node dist/interfaces.js",
+    "start:cumstomTypes": "tsc basics/cumstomTypes --outdir dist/ && node dist/cumstomTypes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
