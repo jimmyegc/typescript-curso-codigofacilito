@@ -9,6 +9,8 @@
     "start:enums": "tsc basics/enums --outdir dist/ && node dist/enums.js",
     "start:interfaces": "tsc basics/interfaces --outdir dist/ && node dist/interfaces.js",
     "start:cumstomTypes": "tsc basics/cumstomTypes --outdir dist/ && node dist/cumstomTypes.js",
+    "start:classes": "tsc basics/classes --outdir dist/ && node dist/classes.js",
+    "start:functions": "tsc basics/functions --outdir dist/ && node dist/functions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
